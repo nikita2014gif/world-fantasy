@@ -1,0 +1,72 @@
+<html>
+<head>
+  <title>світ Фентезі </title>
+  <link href="style.css" rel=stylesheet>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Світ Фентезі</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>🌌 Світ Фентезі</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Головна</a></li>
+        <li><a href="#">Історії</a></li>
+        <li><a href="#characters">Персонажі</a></li>
+        <li><a href="#quotes">Цитати</a></li>
+        <li><a href="#">Контакт</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>Ласкаво просимо до чарівного світу!</h2>
+      <p>Тут оживають легенди, магія та дракони. Вирушай у мандрівку крізь тумани часу до місць, де все можливо...</p>
+    </section>
+
+    <section id="characters" class="characters">
+      <h2>🧝‍♂️ Герої світу</h2>
+      <div class="character-grid">
+        <div class="character-card">
+          <div class="card-inner">
+            <div class="card-front">Аелерін</div>
+            <div class="card-back">Ельф-воїн з Шумного Лісу. Майстер стрільби з лука та ворожбит.</div>
+          </div>
+        </div>
+
+        <div class="character-card">
+          <div class="card-inner">
+            <div class="card-front">Морґанна</div>
+            <div class="card-back">Чарівниця Тіней, володарка стародавніх заклять і легенд.</div>
+          </div>
+        </div>
+
+        <div class="character-card">
+          <div class="card-inner">
+            <div class="card-front">Драгонір</div>
+            <div class="card-back">Дракон-хранитель, який пробуджується тільки у час великої загрози.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="quotes" class="quotes">
+      <h2>📜 Цитати з легенд</h2>
+      <blockquote>
+        «Той, хто шукає магію — знайде її в серці, а не в мечі.» — Старий архіварій з Тар’Алару
+      </blockquote>
+      <blockquote>
+        «Світ змінюють не герої, а мрійники.» — Морґанна
+      </blockquote>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Світ Фентезі. Всі права захищено.</p>
+  </footer>
+</body>
+</html>
